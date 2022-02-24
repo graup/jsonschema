@@ -1,0 +1,11 @@
+{
+  "name": "Abraham Lincoln",
+  "isAdmin": "mismatched type",
+  "option": "lol",
+  "extraField": "should not be here",
+  "array": {},
+  "object": {
+    "extra": "yup"
+  }
+}
+

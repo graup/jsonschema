@@ -1,0 +1,21 @@
+{
+  "name": "json-schema",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@cfworker/json-schema": "^1.12.1",
+    "jtd": "^0.1.1",
+    "object-path": "^0.11.8"
+  },
+  "scripts": {
+    "jtd": "node --loader ts-node/esm --experimental-specifier-resolution=node jtd.ts",
+    "schema": "node --loader ts-node/esm --experimental-specifier-resolution=node schema.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "@types/object-path": "^0.11.1",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}

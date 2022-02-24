@@ -1,0 +1,14 @@
+{
+  "properties": {
+      "name": { "type": "string" },
+      "option": { "enum": ["FOO", "BAR", "BAZ" ]},
+      "isAdmin": { "type": "boolean" },
+      "missingField": { "type": "string" },
+      "array": { "elements": { "type": "string" } },
+      "object": {
+        "properties": {
+          "missingField": { "type": "string" }
+        }
+      }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$id": "https://superbai.com/schema/pointclouds/manifest.json",
+  "type": "object",
+  "required": ["name", "option", "missingField", "isAdmin", "array", "object"],
+  "properties": {
+    "name": { "type": "string" },
+    "option": { "enum": ["FOO", "BAR", "BAZ" ] },
+    "missingField": { "type": "string" },
+    "isAdmin": { "type": "boolean" },
+    "array": { "type": "array", "items": { "type": "string" } },
+    "object": {
+      "type": "object",
+      "required": ["missingField"],
+      "properties": {
+        "missingField": { "type": "string" }
+      }
+    }
+  }
+}
